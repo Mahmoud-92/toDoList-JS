@@ -1,0 +1,42 @@
+body {
+    background-color: gainsboro
+}
+
+#mainDiv { 
+    width: 900px;
+}
+
+#mainDiv .form-check {
+    font-weight:700;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+    transition: .3s;
+}
+
+#mainDiv #todoListItems .button button {
+    border: hidden;
+    background: bottom;
+}
+
+#mainDiv #todoListItems .button button i{
+    pointer-events:none
+}
+
+#mainDiv #todoListItems .button .completed {
+    color: #3ec282;
+}
+
+#mainDiv #todoListItems .button .trash {
+    color: #e72727;
+}
+
+#mainDiv #todoListItems .button .editBtn {
+    color: #384cff;
+}
+
+.completed {
+    background: #bebebe;
+}
